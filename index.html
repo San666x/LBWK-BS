@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="https://lbwk.jp/wp-content/uploads/2023/03/4_000000002991.jpg" type="image/x-icon">
+    <title>LIBERTY WALLS</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top flex-wrap p-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">LIBERTY WALLS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link nav-link active" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Products">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="Home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/car2.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BODY KIT</h5>
+                        <p>Nissan 380SX</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/car3.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BEST PROJECTS SO FAR</h5>
+                        <p>Nissan SKYLINE GTR R35</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/car4.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>TUNE UP</h5>
+                        <p>Toyota Supra MK4</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div id="Products" class="p-5 mb-5">
+        <h2 class="text-center mb-5">Our Projects</h2>
+        <div class="d-flex justify-content-evenly flex-wrap gap-5 gap-lg-0">
+            <div class="card " style="width: 18rem;">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6b404797413323.5ec477b6df547.jpg" class="card-img-top"alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nissan SKYLINE GTR R34</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rerum sapiente mollitia sunt debitis repudiandae aspernatur labore ipsum eveniet.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <img src="https://i.pinimg.com/564x/ac/b8/ee/acb8ee0d699e35308327086d785cf021.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Toyota GT86</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sapiente quasi optio consequatur? Voluptatibus itaque consequuntur in similique.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>  
+            <div class="card " style="width: 18rem;">
+                <img src="https://i.pinimg.com/564x/06/88/bf/0688bff96f06717c226d798a4b451411.jpg"class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BMW M5 Competition</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sapiente quasi optio consequatur? Voluptatibus itaque consequuntur in similique.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <div id="Contact" class="border mx-5 mb-5 rounded">
+        <form class="container my-5">
+        <h3 class="text-center fw-semibold mb-5">Contact Us</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@gmail.com">
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Doe">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Full name</label>
+              <textarea id="" cols="30" rows="5" class="form-control" placeholder="Enter your message here.."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
